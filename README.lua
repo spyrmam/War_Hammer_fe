@@ -11,7 +11,7 @@ local function fakeEvent()
     return t
 end
 
---Creating fake input objects with fake variables
+--Creating fake input objects with fake variablesg
 local m = {Target=nil,Hit=CFrame.new(),KeyUp=fakeEvent(),KeyDown=fakeEvent(),Button1Up=fakeEvent(),Button1Down=fakeEvent()}
 local UIS = {InputBegan=fakeEvent(),InputEnded=fakeEvent()}
 local CAS = {Actions={},BindAction=function(self,name,fun,touch,...)
@@ -264,10 +264,10 @@ for i,v in pairs(char:children()) do
 	end
 end
 
-pcall(function() me.PlayerGui:findFirstChild("RaigMeter",true):remove() end)
+--pcall(function() me.PlayerGui:findFirstChild("RaigMeter",true):remove() end)
 
-Local Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
-Sc.Name = "RaigMeter"
+---Local Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
+--Sc.Name = "RaigMeter"
 
 Fr = Instance.new("Frame",Sc)
 Fr.Size = UDim2.new(0, 250, 0, 28)
