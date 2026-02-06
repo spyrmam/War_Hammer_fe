@@ -266,7 +266,7 @@ end
 
 pcall(function() me.PlayerGui:findFirstChild("RaigMeter",true):remove() end)
 
-Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
+Local Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
 Sc.Name = "RaigMeter"
 
 Fr = Instance.new("Frame",Sc)
