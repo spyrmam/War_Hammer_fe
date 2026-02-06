@@ -1,4 +1,4 @@
-if game:GetService("RunService"):IsClient() then error("Script must be server-side in order to work; use h/ and not hl/") end local Player,game,owner = owner,game local RealPlayer = Player do print("this shit was fe converted by spyrmam!") local rp = RealPlayer script.Parent = rp.Character
+if game:GetService("RunService"):IsClient() then error("Script must be server-side in order to work; use hl/ and not h/") end local Player,game,owner = owner,game local RealPlayer = Player do print("this shit was fe converted by spyrmam!") local rp = RealPlayer script.Parent = rp.Character
 
 --RemoteEvent for communicating
 local Event = Instance.new("RemoteEvent")
