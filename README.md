@@ -269,6 +269,9 @@ pcall(function() me.PlayerGui:findFirstChild("RaigMeter",true):remove() end)
 Local Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
 Sc.Name = "RaigMeter"
 
+Local = m = Instance.new("Hint", game.Workspace)
+m.Text = "Test"
+
 Fr = Instance.new("Frame",Sc)
 Fr.Size = UDim2.new(0, 250, 0, 28)
 Fr.Position = UDim2.new(0.5, -125, 0, 5)
