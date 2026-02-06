@@ -106,7 +106,7 @@ game,owner = g,g.Players.LocalPlayer
 end
 
 Plrs = game:GetService("Players")
-me = Plrs.Localplayer
+me = Plrs.LocalPlayer
 char = me.Character
 Modelname = "Warhammah"
 Toolname = "Warhammar"
