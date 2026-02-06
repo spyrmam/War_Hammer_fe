@@ -264,10 +264,10 @@ for i,v in pairs(char:children()) do
 	end
 end
 
---pcall(function() me.PlayerGui:findFirstChild("RaigMeter",true):remove() end)
+Local pcall(function() me.PlayerGui:findFirstChild("RaigMeter",true):remove() end)
 
----Local Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
---Sc.Name = "RaigMeter"
+Local Sc = Instance.new("ScreenGui",me:findFirstChild("PlayerGui"))
+ Sc.Name = "RaigMeter"
 
 Fr = Instance.new("Frame",Sc)
 Fr.Size = UDim2.new(0, 250, 0, 28)
